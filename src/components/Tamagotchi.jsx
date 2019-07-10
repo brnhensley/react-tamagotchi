@@ -1,9 +1,11 @@
 import React from 'react';
+import Stats from './Stats';
 
 function Tamagotchi() {
   return (
     <div>
-      I"M A CUTE ASS MONSTER THING-- STROKE-MU-GOTCHI
+      <h1>I"M A CUTE ASS MONSTER THING-- STROKE-MU-GOTCHI</h1>
+      <Stats />
     </div>
   );
 }
